@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+}
+
+
+body{
+    background: rgb(119, 119, 255);
+}
+
+
+.main{
+    display: flex;
+    margin: 20px auto;
+    max-width: 100%;
+    background: rgb(255, 255, 255);
+    width: 100%;
+    justify-content: center;
+    padding: 2rem 2%;
+}
+
+
+
+.main h2{
+    font-size: 5.2rem;
+    color: rgb(255, 162, 22);
+    font-family: sans-serif;
+}
+
+
+.pokebox{
+    display: flex;
+    margin: 20px auto;
+    max-width: 100%;
+    background: rgb(255, 255, 255);
+    width: 100%;
+    justify-content: center;
+    padding: 2rem 2%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.pokeboxuser{
+    margin: 0 2%;
+    background: rgb(197, 197, 197);
+    width: 180px;
+    margin: 2%;
+    border-radius: 12px;
+    
+}
+
+.pokeboxuser img{   
+    width: 100%;
+    background: rgb(197, 197, 197);
+    
+    
+}
+
+.pokebox p{
+    color: #000000;
+    font-size: 3rem;
+    text-align: center;
+    padding: 10px 0;
+}
